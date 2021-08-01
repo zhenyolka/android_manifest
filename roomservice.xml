@@ -14,5 +14,4 @@
   <project name="android_kernel_xiaomi_sdm710" path="kernel/xiaomi/sdm710" revision="10.0-caf" remote="sdm710-dev" />
   <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="lineage-18.1" remote="sdm710-dev" />
   <remove-project name="device/generic/opengl-transport" />
-  <project name="android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" revision="lineage-18.1-caf" remote="lineageos" />
 </manifest>
