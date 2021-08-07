@@ -9,6 +9,8 @@
            fetch="https://github.com/DobreDomitian" />
   <remote  name="lineageos"
            fetch="https://github.com/LineageOS" />
+  <remote  name="kudproject"
+           fetch="https://github.com/KudProject" />
 
   <project name="android_device_xiaomi_pyxis" path="device/xiaomi/pyxis" revision="lineage-18.1" remote="zhenyolka-dev" />
   <project name="android_device_xiaomi_sdm710-common" path="device/xiaomi/sdm710-common" revision="lineage-18.1" remote="zhenyolka-dev" />
@@ -16,4 +18,6 @@
   <project name="Kernul" path="kernel/xiaomi/sdm710" revision="KangEZ" remote="kraverix-dev" />
   <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="lineage-18.1" remote="sdm710-dev" />
   <remove-project name="device/generic/opengl-transport" />
+  <project name="hardware_qcom_display-caf" path="hardware/qcom-caf/sdm845/display" revision="lineage-18.1/sdm845" remote="kudproject" />
+  <project name="hardware_qcom_media-caf" path="hardware/qcom-caf/sdm845/media" revision="lineage-18.1/sdm845" remote="kudproject" />
 </manifest>
